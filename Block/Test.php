@@ -5,17 +5,17 @@ class Test extends \Magento\Framework\View\Element\Template
 {
     public function geturluk()
     {
-        $datas = ['front_name/index/us', 'front_name/index/eu'];
+        $datas = ['us', 'eu'];
         return $datas;
     }
     public function geturlus()
     {
-        $datas = ['front_name/index/uk', 'front_name/index/eu'];
+        $datas = ['uk', 'eu'];
         return $datas;
     }
     public function geturleu()
     {
-        $datas = ['front_name/index/us', 'front_name/index/uk'];
+        $datas = ['us', 'uk'];
         return $datas;
     }
 }
